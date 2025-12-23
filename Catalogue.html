@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+     <div class="sticky-top">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg bg-success-subtle">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-lg-none" href="../projet_formation/projet-final1.html">
+                        <img src="../projet_formation/images/lacoste-logo-png_seeklogo-477898.png" alt="Logo" width="30" height="24">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../projet_formation/projet-final1.html"><img
+                                        src="../projet_formation/images/lacoste-logo-png_seeklogo-477898.png" alt="Logo" width="30" height="24"
+                                        class="d-inline-block align-text-bottom"></a>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../projet_formation/projet-final2.html">Produits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../projet_formation/projet-final3.html">Catalogue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../projet_formation/projet-final4.html">À Propos</a>
+                            </li>
+                        </ul>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#panier">
+                            <img src="../projet_formation/images/basket.svg" alt="Panier" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                        </button>
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Recherchez"
+                                aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Recherche</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="panier" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="panier">Panier</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Contenu fictif du panier</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuer vos
+                        achats</button>
+                    <button type="button" class="btn btn-primary">Valider panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- catalogue -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/beret cosla.avif" class="card-img-top" alt="Beret Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Beret noir en Laine</h5>
+                        <p class="card-text">Beret soin, passe partout et élégant.</p>
+                        <a href="#" class="btn btn-success">89€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/bob cosla.avif" class="card-img-top" alt="Bob Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Bob noir 100% Coton</h5>
+                        <p class="card-text">Pièce qui traverse les générations, et les régions.</p>
+                        <a href="#" class="btn btn-success">69€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/bonnet cosla.avif" class="card-img-top" alt="Bonnet Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Bonnet noir en laine</h5>
+                        <p class="card-text">Meilleur moyen de garder la tête et vos oreilles au chaud.</p>
+                        <a href="#" class="btn btn-success">69€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/casquette cosla.avif" class="card-img-top" alt="Casquette Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Casquette Lacoste</h5>
+                        <p class="card-text">Sur les courts ou en ville, cette casquette sera élégante .</p>
+                        <a href="#" class="btn btn-success">69€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/echarppe cosla.avif" class="card-img-top" alt="Echarppe Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Echarppe Lacoste</h5>
+                        <p class="card-text">Evitez le coup de froid avec ette écharppe en laine.</p>
+                        <a href="#" class="btn btn-success">149€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/gants-sport cosla.avif" class="card-img-top" alt="Gants de sport Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Gants de sport</h5>
+                        <p class="card-text">Ces gants réfléchissant seront vos alliés cet hiver.</p>
+                        <a href="#" class="btn btn-success">59€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/gants cosla.avif" class="card-img-top" alt="Gants Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Gants en laine</h5>
+                        <p class="card-text">Gants 100% laine 100% chaleur 100% style.</p>
+                        <a href="#" class="btn btn-success">59€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../projet_formation/images/sneakers.jpg.avif" class="card-img-top" alt="Sneakers Lacoste">
+                    <div class="card-body">
+                        <h5 class="card-title">Sneakers L003</h5>
+                        <p class="card-text">Soyez sportif tout en étant élégant avec ces sneakers</p>
+                        <a href="#" class="btn btn-success">189€</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="bg-success-subtle text-dark pt-5 pb-3">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Informations -->
+                <div class="col-md-4 mb-4">
+                    <h5><i class="Lacoste shop"></i>Lacoste</h5>
+                    <p class="text-muted">Achats sécurisés 24/7 en ligne.</p>
+                    <p class="text-muted mb-0">
+                        <i class="Lacoste loc"></i> 123 avenue Georges 5, 75008 Paris<br>
+                        <i class="Lacoste telephone"></i> 01 09 87 65 43<br>
+                        <i class="Lacoste mail"></i> contact@lacoste.fr
+                    </p>
+                </div>
+
+                <!-- Newsletter avec Input Group + Validation -->
+                <div class="col-md-4 mb-4">
+                    <h5>Newsletter</h5>
+                    <p class="text-muted">Inscrivez-vous pour recevoir nos offres exclusives</p>
+                    <form class="needs-validation" novalidate>
+                        <div class="input-group mb-3 has-validation">
+                            <input type="email" class="form-control" placeholder="Votre email" required>
+                            <button class="btn btn-outline-success" type="submit">
+                                <i class="bi bi-send"></i> S'inscrire
+                            </button>
+                            <div class="invalid-feedback">
+                                Veuillez entrer une adresse email valide.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- RS -->
+                <div class="col-12 col-md-4 mb-4">
+                    <h5>Nos réseaux sociaux</h5>
+                    <div class="social-links">
+                        <a href="https://x.com/Lacoste" aria-label="Twitter">
+                            <img src="../projet_formation/images/x-twitter-brands-solid-full.svg" alt="Logo X" height="30">
+                        </a>
+                        <a href="https://www.instagram.com/lacoste/" aria-label="Instagram">
+                            <img src="../projet_formation/images/instagram-brands-solid-full.svg" alt="Logo Instagram" height="30">
+                        </a>
+                        <a href="https://www.tiktok.com/@lacoste?lang=fr" aria-label="TikTok">
+                            <img src="../projet_formation/images/tiktok-brands-solid-full.svg" alt="Logo TikTok" height="30">
+                        </a>
+                        <a href="https://www.facebook.com/Lacoste/?locale=fr_FR" aria-label="Facebook">
+                            <img src="../projet_formation/images/facebook-brands-solid-full.svg" alt="Logo Facebook" height="30">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="col-md-4 mb-4 flex-end">
+                    <p>©2025 tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
